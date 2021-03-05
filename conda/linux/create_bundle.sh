@@ -64,6 +64,9 @@ echo "Add libnsl (Fedora 28 and up)"
 cp ../../libc6/lib/x86_64-linux-gnu/libnsl* AppDir/usr/lib/
 
 echo "Add documentation"
+echo $(ls)
+echo $(ls ..)
+echo $(ls ../..)
 mkdir -p AppDir/usr/share/doc/FreeCAD/
 cp ../../doc/* AppDir/usr/share/doc/FreeCAD/
 
